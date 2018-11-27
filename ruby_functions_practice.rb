@@ -98,3 +98,7 @@ def number_to_short_month_name(num)
     return "Invalid month"
   end
 end
+
+def calc_volume_of_cube(side_length)
+  return side_length**3
+end
