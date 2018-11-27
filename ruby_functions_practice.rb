@@ -21,3 +21,7 @@ def divide(num1,num2)
   total = num1 / num2
   return total
 end
+
+def length_of_string(test_string)
+  return test_string.length
+end
