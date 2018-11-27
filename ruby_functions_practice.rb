@@ -1,3 +1,5 @@
+
+
 def return_10()
   return 10
 end
@@ -104,9 +106,14 @@ def calc_volume_of_cube(side_length)
 end
 
 def calc_volume_of_sphere(radius)
-  return ((4/3)*(3.14 *(radius**3)))
+  return ((4.0/3.0)*((Math::PI)*(radius**3.0))).round(2)
 end
 
 def fahrenheit_to_celsius(temp)
-  return ((temp-32)*(5/9))
+  return ((temp-32)*(5.0/9.0))
 end
+
+puts calc_volume_of_sphere(10)
+
+
+puts Math::PI
